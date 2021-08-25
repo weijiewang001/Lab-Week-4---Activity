@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PrintAndHide : MonoBehaviour
 {
-    [SerializeField] int i = 3;
+    int i = 3;
+
     public Renderer rend;
 
     // Start is called before the first frame update
@@ -18,7 +19,6 @@ public class PrintAndHide : MonoBehaviour
     {
         i++;
         Debug.Log(gameObject.name + ":" + i);
-        //get problem;
         
     }
 }
